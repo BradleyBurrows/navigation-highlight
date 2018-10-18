@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font: normal 100%/1.5 'Georgia', sans-serif;
+  font: normal 100%/1.5 Georgia, sans-serif;
   background-color: #fff;
 }
 
@@ -13,51 +13,55 @@ body {
 }
 
 header {
-  padding-bottom: .3em;
+  padding-bottom: .2em;
   background-color: #ffe500;
   margin: 0;
 }
 
 footer {
-font-size: .755rem;
-text-align: center;
-background-color: #ffe500;
-padding: 1em;
+  font-size: .755rem;
+  text-align: center;
+  background-color: #ffe500;
+  padding: 1.5em;
 }
 
 h1 {
-  font: normal 100%/1.5 'Sigmar One', sans-serif;
-  font-family: 'Sigmar One', sans-serif;
+  font: normal 100%/1.5 "Sigmar One", sans-serif;
+  font-family: "Sigmar One", sans-serif;
   text-align: center;
   margin: 0;
   font-size: 3rem;
-   color: #cc1465
-}
-
-h2 {
-  font: normal 100%/1.5 'Sigmar One', sans-serif;
-  font-family: 'Sigmar One', sans-serif;
-  text-align: left;
-  margin: 2;
-  padding-left: .5em;
-  font-size: 1.75rem;
   color: #cc1465;
 }
 
-figcaption {
+h2 {
+  font: normal 100%/1.5 "Sigmar One", sans-serif;
+  font-family: "Sigmar One", sans-serif;
   text-align: left;
-  margin-left: -1.75rem;
+  padding: .4em;
+  font-size: 1.875rem;
+  color: #cc1465;
+  margin: 0;
+  padding-top: 1em;
+  padding-bottom: .3em;
+}
+
+p {
+  text-align: left;
+  padding: .75rem;
+  color: #2f2d13;
+  margin: 0;
 }
 
 img {
-  width:118%;
+  width: 100%;
   display: block;
-  margin-bottom:.3em;
-  margin-left: -1.8em;
-
+  margin: 0;
+  padding: 1em;
+  padding-bottom: 0;
 }
 
-.nav{
+.nav {
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -71,16 +75,26 @@ img {
 .nav a {
   color: #fff;
   display: inline-block;
-  padding: 0.5em 0.75em;
   background-color: #b2a212;
   border-radius: 3px;
   text-decoration: none;
+  padding: .25em;
+  padding-left: .5em;
+  padding-right: .5em;
 }
 
 .nav a:hover {
   background-color: #cc1465;
 }
 
-.nav .current{
+.nav .current {
   background-color: #b20953;
+}
+
+figure {
+  margin: 0;
+}
+
+a {
+  font-size: 1.125rem;
 }
