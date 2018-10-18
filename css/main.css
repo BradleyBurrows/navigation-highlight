@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font: normal 100%/1.5 'Georgia', sans-serif;
+  background-color: #fff;
 }
 
 *, *::before, *::after {
@@ -12,8 +13,9 @@ body {
 }
 
 header {
-  padding: 1em 0;
+  padding-bottom: .3em;
   background-color: #ffe500;
+  margin: 0;
 }
 
 footer {
@@ -28,7 +30,7 @@ h1 {
   font-family: 'Sigmar One', sans-serif;
   text-align: center;
   margin: 0;
-  font-size: 2.5rem;
+  font-size: 3rem;
    color: #cc1465
 }
 
